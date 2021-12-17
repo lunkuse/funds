@@ -1,0 +1,811 @@
+header .navbar-brand img {
+    min-height: 2rem;
+}
+
+.navbar-nav li a {
+    font-size: 1.25rem;
+    padding: 0.15rem 1.75rem !important;
+}
+
+#website-switch {
+    min-width: 10rem;
+    margin-top: 1rem;
+    font-size: 1.15rem;
+}
+
+#hero-section {
+    padding-top: 5rem;
+    height: 40rem;
+    text-align: left;
+    background-position: top center;
+}
+
+#hero-content-container h3 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    max-width: 100%;
+    margin: 0 0 0.75rem 0;
+}
+
+#hero-content-container ul {
+    height: 3rem;
+    max-width: 100%;
+    margin: 0.5rem 0 1rem 0;
+}
+
+#hero-content-container ul li {
+    font-size: 2.5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#hero-content-container p {
+    font-size: 1.75rem;
+}
+
+#hero-content-container>div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-content-container>div>a,
+#download-section>div>div>div:first-child>div a {
+    padding: 0.75rem 1.5rem;
+    margin: 1rem 1.5rem 1rem 0;
+    border-radius: 0.75rem;
+    line-height: 1.25rem;
+}
+
+#hero-content-container>div>a>img,
+#download-section>div>div>div:first-child>div a img {
+    height: 2rem;
+    margin-right: 0.75rem;
+}
+
+#hero-content-container>div>a>span>b,
+#download-section>div>div>div:first-child>div a>span>b {
+    font-size: 1rem;
+    display: block;
+    min-width: 5rem;
+}
+
+#hero-image-container img {
+    height: 28rem;
+    width: auto;
+}
+
+
+/*body:not(.white):not(.scrolled) .intercom-lightweight-app-launcher,
+body:not(.white):not(.scrolled) .intercom-launcher-frame {
+    bottom: 4vw !important;
+    right: 4vw !important;
+    transition: all 0.3s ease-in-out;
+}*/
+
+#as-seen-on-section,
+#security-section>div>div:last-child>div:first-child {
+    padding: 3rem 0 1.5rem 0;
+    width: auto;
+}
+
+#security-section>div>div:last-child>div:first-child {
+    flex-wrap: nowrap;
+}
+
+#as-seen-on-container>a,
+#security-section>div>div:last-child>div:first-child>div {
+    margin: 0rem 0.75rem;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    display: block !important;
+    width: auto;
+    min-width: auto;
+}
+
+#security-section>div>div:last-child>div:first-child>div {
+    flex: 1;
+}
+
+#as-seen-on-container>a>p {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+#as-seen-on-container>a>img {
+    margin: 1rem auto 0 auto;
+    height: 2.75rem;
+}
+
+#map-section {
+    padding: 7rem 0;
+    max-height: calc(44vw+14rem);
+    max-height: auto;
+}
+
+#map-section>div {
+    height: 44vw;
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+    background-position: center center;
+    background-size: cover;
+}
+
+#map-section>div>img {
+    right: auto;
+    bottom: auto;
+}
+
+#map-section>div>img:first-child {
+    left: 7.25vw !important;
+    top: calc(44vw - 74.35%);
+    height: 5.65vw;
+    width: 5.65vw;
+}
+
+#map-section>div>img:nth-child(2) {
+    left: 31.25vw !important;
+    top: calc(44vw - 98.75%);
+    height: 3.25vw;
+    width: 3.25vw;
+}
+
+#map-section>div>img:nth-child(3) {
+    left: 47vw !important;
+    top: calc(44vw - 49.5%);
+    height: 6vw;
+    width: 6vw;
+}
+
+#map-section>div>img:nth-child(4) {
+    left: 73.5vw !important;
+    top: calc(44vw - 90%);
+    height: 3.25vw;
+    width: 3.25vw;
+}
+
+#map-section>div>img:nth-child(5) {
+    left: 73vw !important;
+    top: calc(44vw - 57%);
+    height: 5vw;
+    width: 5vw;
+}
+
+#map-section>div>img:nth-child(6) {
+    left: 85.25vw !important;
+    top: calc(44vw - 24.25%);
+    height: 4vw;
+    width: 4vw;
+}
+
+#map-section>div>img:nth-child(7),
+#map-section>div>img:nth-child(8),
+#map-section>div>img:nth-child(9),
+#map-section>div>img:nth-child(10),
+#map-section>div>img:nth-child(11) {
+    height: 0.85rem;
+    width: 0.85rem;
+}
+
+#map-section>div>img:nth-child(7) {
+    left: 19.5vw !important;
+    top: calc(44vw - 107.5%);
+}
+
+#map-section>div>img:nth-child(8) {
+    left: 19.5vw !important;
+    top: calc(44vw - 38.75%);
+}
+
+#map-section>div>img:nth-child(9) {
+    left: 66vw !important;
+    top: calc(44vw - 121%);
+}
+
+#map-section>div>img:nth-child(10) {
+    left: 59.25vw !important;
+    top: calc(44vw - 60%);
+}
+
+#map-section>div>img:nth-child(11) {
+    left: 85vw !important;
+    top: calc(44vw - 75.25%);
+}
+
+#map-section>div>#map-text {
+    font-size: 4rem;
+    line-height: 5rem;
+    left: 10vw;
+    top: calc(44vw - 99%);
+    width: 80vw;
+}
+
+#map-section>div>#map-text>span:first-child {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+
+#map-section>div>#map-text>span:last-child {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+
+#manage-your-money-section>div:first-child {
+    font-size: 2.25rem;
+    margin-top: -14rem;
+    padding: 7rem 10vw;
+    line-height: 3.25rem;
+}
+
+#manage-your-money-section>div:last-child>div,
+#security-section>div>div:last-child>div:first-child>div p {
+    margin: -3rem 0 0 0;
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+#manage-your-money-section>div:last-child>div img {
+    margin: 2rem 0 1rem 0;
+    max-width: 3rem;
+}
+
+#manage-your-money-section>div:last-child>div h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#financial-super-app-section>div:first-child h3,
+#security-section>div>div:first-child h3,
+#our-users-section h3,
+#business-section h3,
+#download-section>div>div>div:first-child>div h3 {
+    font-size: 2.25rem;
+    line-height: 3.25rem;
+}
+
+#financial-super-app-section>div:first-child p,
+#business-section p {
+    line-height: 2rem;
+    font-size: 1.1rem;
+    max-width: 60vw;
+}
+
+#business-section p {
+    max-width: 25rem;
+}
+
+#send-and-receive-money-section,
+#stock-trading-section {
+    padding: 2rem;
+}
+
+#exchange-currency-section {
+    padding: 5rem 2rem;
+}
+
+#virtual-cards-section {
+    padding: 3rem 2rem 1rem 2rem;
+}
+
+#send-and-receive-money-section>div>div:first-child,
+#virtual-cards-section>div>div:first-child,
+#crypto-section>div>div:first-child {
+    order: 0;
+}
+
+#send-and-receive-money-section>div>div:last-child,
+#virtual-cards-section>div>div:last-child,
+#crypto-section>div>div:last-child {
+    order: 1;
+}
+
+#send-and-receive-money-section>div>div:first-child>div img {
+    min-width: 35rem;
+    width: 35rem;
+    margin-left: 0;
+    margin-right: -37%;
+}
+
+#send-and-receive-money-section>div>div:last-child>div,
+#exchange-currency-section>div>div:first-child>div,
+#virtual-cards-section>div>div:last-child>div,
+#stock-trading-section>div>div:first-child>div,
+#crypto-section>div>div:last-child>div,
+#download-section>div>div>div:first-child>div {
+    align-items: flex-start;
+    height: 100%;
+    max-width: 100%;
+    text-align: left;
+    margin-left: 1rem;
+    padding: 0 3rem 0 0;
+}
+
+#virtual-cards-section>div>div:last-child>div {
+    padding: 0 0 0 2%
+}
+
+#crypto-section>div>div:last-child>div {
+    padding: 0 2% 0 5%;
+}
+
+#send-and-receive-money-section h3,
+#exchange-currency-section h3,
+#virtual-cards-section h3,
+#stock-trading-section h3,
+#crypto-section h3 {
+    margin: 4rem 1rem 0 0;
+    font-size: 1.85rem;
+    line-height: 2.75rem;
+    width: auto;
+}
+
+#send-and-receive-money-section h3 {
+    margin-top: 6rem;
+}
+
+#exchange-currency-section h3,
+#crypto-section h3 {
+    margin: 0 1rem 0 0;
+}
+
+#send-and-receive-money-section p,
+#exchange-currency-section p,
+#virtual-cards-section p,
+#stock-trading-section p,
+#crypto-section p {
+    line-height: 2rem;
+    font-size: 1.1rem;
+    margin: 1rem 0 0 0;
+}
+
+#exchange-currency-section>div>div:first-child>div {
+    margin: 0 0 0 2.5rem;
+}
+
+#exchange-currency-section>div>div:last-child>div {
+    margin-right: 2.5rem;
+}
+
+#exchange-currency-section>div>div:last-child>div>div:not(:nth-child(2)) {
+    padding: 0.75rem 1.25rem;
+    margin: 0.5rem 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 0.5rem;
+    width: 80%;
+}
+
+#exchange-currency-section>div>div:last-child>div>div:first-child {
+    width: 100%;
+    padding: 1rem 1.5rem;
+}
+
+#exchange-currency-section>div>div:last-child>div>div:not(:nth-child(2)) img {
+    border-radius: 6rem;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 0.75rem;
+}
+
+#exchange-currency-section>div>div:last-child>div>div:first-child img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 7rem;
+    margin-right: 1.25rem;
+}
+
+#exchange-currency-section>div>div:last-child>div>div>div {
+    font-size: 1rem;
+}
+
+#exchange-currency-section>div>div:last-child>div>div:first-child>div {
+    font-size: 1.15rem;
+}
+
+#exchange-currency-section>div>div:last-child>div>div:nth-child(2) {
+    margin: 0.5rem 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 4rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+#exchange-currency-section>div>div:last-child>div>div:nth-child(2) img {
+    width: 0.5rem;
+    margin: 0.015rem;
+}
+
+#virtual-cards-section>div>div:last-child>div {
+    margin-top: -3.5rem;
+    padding-right: 22.5%;
+}
+
+#virtual-cards-section>div>div:first-child>div {
+    margin: 0;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    overflow: visible;
+}
+
+#virtual-cards-section>div>div:first-child>div>img {
+    min-width: 32rem;
+    width: 32rem;
+    margin: 0 -13% 0 0;
+}
+
+#stock-trading-section>div>div:first-child>div {
+    padding-left: 15%;
+    margin-right: -5%;
+    margin-top: -1rem;
+}
+
+#stock-trading-section a,
+#business-section a {
+    margin: 1.5rem 0;
+    width: 80%;
+    padding: 0.75rem 0;
+    font-size: 1rem;
+}
+
+#business-section a {
+    width: 20rem;
+}
+
+#stock-trading-section>div>div:last-child>div img {
+    width: 90%;
+    min-width: 90%;
+    margin-top: 1rem;
+}
+
+#crypto-section>div>div:first-child>div {
+    padding: 0 0% 0 0%;
+    margin: 0 -5% 0 5%;
+}
+
+#crypto-section>div>div:first-child>div>div {
+    padding: 0.75rem;
+    margin: 1rem 0 1rem 0;
+    border-radius: 0.5rem;
+    width: 70%;
+}
+
+#crypto-section>div>div:first-child>div>div img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+#crypto-section>div>div:first-child>div>div>div:first-child>div:first-child img {
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+#crypto-section>div>div:first-child>div>div h5 {
+    font-size: 0.95rem;
+    margin: 0.1rem 0 0.025rem 0;
+}
+
+#crypto-section>div>div:first-child>div>div h4 {
+    font-size: 0.95rem;
+    margin: 0.1rem 0 0.1rem 0;
+}
+
+#crypto-section>div>div:first-child>div>div span {
+    color: #666666;
+    font-size: 0.85rem;
+}
+
+#crypto-section>div>div:first-child>div>div:first-child h4 {
+    font-size: 1.2rem;
+}
+
+#crypto-section>div>div:first-child>div>div:first-child>div:first-child>div:first-child h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+#crypto-section>div>div:first-child>div>div:first-child>div:first-child>div:first-child span {
+    font-size: 0.9rem;
+}
+
+#security-section>div>div:last-child>div:first-child {
+    margin: 0 1vw;
+    min-height: auto;
+}
+
+#security-section>div>div:last-child>div:first-child>div {
+    min-height: auto;
+}
+
+#security-section>div>div:last-child>div:first-child>div img {
+    height: 3.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+#security-section>div>div:last-child>div:first-child>div h4,
+#our-users-section .text-container h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+    font-weight: 500 !important;
+}
+
+#security-section>div>div:last-child>div:first-child>div p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+#our-users-section .images-container {
+    width: 35rem;
+    height: 15rem;
+    margin-top: 1rem;
+    position: relative;
+}
+
+#our-users-section .images-container img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 8rem;
+}
+
+#our-users-section .images-container[data-step="1"] img:first-child,
+#our-users-section .images-container[data-step="2"] img:nth-child(5),
+#our-users-section .images-container[data-step="3"] img:nth-child(4),
+#our-users-section .images-container[data-step="4"] img:nth-child(3),
+#our-users-section .images-container[data-step="5"] img:nth-child(2) {
+    top: calc(50% - 3.5rem);
+    left: calc(50% - 3.5rem);
+    width: 7rem;
+    height: 7rem;
+}
+
+#our-users-section .images-container[data-step="1"] img:nth-child(2),
+#our-users-section .images-container[data-step="1"] img:nth-child(5),
+#our-users-section .images-container[data-step="2"] img:nth-child(1),
+#our-users-section .images-container[data-step="2"] img:nth-child(4),
+#our-users-section .images-container[data-step="3"] img:nth-child(5),
+#our-users-section .images-container[data-step="3"] img:nth-child(3),
+#our-users-section .images-container[data-step="4"] img:nth-child(4),
+#our-users-section .images-container[data-step="4"] img:nth-child(2),
+#our-users-section .images-container[data-step="5"] img:nth-child(3),
+#our-users-section .images-container[data-step="5"] img:nth-child(1) {
+    top: calc(100% - 4rem);
+    left: 0;
+}
+
+#our-users-section .images-container[data-step="1"] img:nth-child(5),
+#our-users-section .images-container[data-step="2"] img:nth-child(4),
+#our-users-section .images-container[data-step="3"] img:nth-child(3),
+#our-users-section .images-container[data-step="4"] img:nth-child(2),
+#our-users-section .images-container[data-step="5"] img:nth-child(1) {
+    right: 0;
+    left: auto;
+}
+
+#our-users-section .images-container[data-step="1"] img:nth-child(3),
+#our-users-section .images-container[data-step="1"] img:nth-child(4),
+#our-users-section .images-container[data-step="2"] img:nth-child(2),
+#our-users-section .images-container[data-step="2"] img:nth-child(3),
+#our-users-section .images-container[data-step="3"] img:nth-child(1),
+#our-users-section .images-container[data-step="3"] img:nth-child(2),
+#our-users-section .images-container[data-step="4"] img:nth-child(5),
+#our-users-section .images-container[data-step="4"] img:nth-child(1),
+#our-users-section .images-container[data-step="5"] img:nth-child(4),
+#our-users-section .images-container[data-step="5"] img:nth-child(5) {
+    top: 0;
+    left: calc(25% - 2rem);
+}
+
+#our-users-section .images-container[data-step="1"] img:nth-child(4),
+#our-users-section .images-container[data-step="2"] img:nth-child(3),
+#our-users-section .images-container[data-step="3"] img:nth-child(2),
+#our-users-section .images-container[data-step="4"] img:nth-child(1),
+#our-users-section .images-container[data-step="5"] img:nth-child(5) {
+    right: calc(25% - 2rem);
+    left: auto;
+}
+
+#our-users-section .text-container {
+    padding: 0;
+    width: 27.5rem;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+#our-users-section .text-container h4 {
+    margin-top: 1rem;
+}
+
+#our-users-section .text-container h5 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+#our-users-section {
+    padding: 5rem 0 3rem 0;
+}
+
+#business-section>div>div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#business-section>div>div:last-child>div {
+    margin: -7.5rem 0rem;
+}
+
+#business-section>div>div:last-child>div img {
+    width: 50rem;
+    min-width: 50rem;
+}
+
+#download-section {
+    margin-top: 7rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#download-section>div>div>div:last-child>div>img:first-child {
+    display: block;
+    width: 24rem;
+    margin-right: 4rem;
+    margin-top: -3rem;
+}
+
+#download-section>div>div>div:last-child>div>img:nth-child(2) {
+    display: none;
+}
+
+#download-section>div>div>div:first-child>div h3 {
+    margin: 0;
+}
+
+#download-section>div>div>div:first-child>div>div {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(3),
+#download-section>div>div>div:last-child>div img:nth-child(4),
+#download-section>div>div>div:last-child>div img:nth-child(5),
+#download-section>div>div>div:last-child>div img:nth-child(6) {
+    width: 0.85rem;
+    height: 0.85rem;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(3) {
+    top: 2rem;
+    left: -4rem;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(4) {
+    top: -2rem;
+    right: 4rem;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(5) {
+    bottom: 8rem;
+    left: -7rem;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(6) {
+    bottom: 14rem;
+    right: 2rem;
+}
+
+#our-users-section {
+    height: 43rem;
+}
+
+footer>div>div:first-child>div:last-child>div>div>div:nth-child(2) {
+    order: 2;
+}
+
+footer>div>div:first-child>div:last-child>div>div>div:nth-child(2) h3,
+footer>div>div:first-child>div:last-child>div>div>div:nth-child(2) ul {
+    margin-left: -15%;
+    margin-right: -5%;
+}
+
+footer>div>div:first-child>div:last-child>div>div>div:nth-child(3) {
+    order: 3;
+    padding-left: 3%;
+}
+
+footer>div>div:first-child>div:first-child {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+footer>div>div:first-child>div:first-child img {
+    width: 8rem;
+}
+
+footer>div>div:first-child>div:last-child>div {
+    margin-left: -5%;
+}
+
+footer h3 {
+    font-size: 1.15rem;
+    margin-top: 0.25rem;
+}
+
+footer ul li a {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+footer ul li a img {
+    float: right;
+    height: 1.25rem;
+    margin-top: 0.15rem;
+}
+
+footer>div>div:last-child {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 3rem 0rem;
+}
+
+footer>div>div:last-child>p {
+    order: 1;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+footer>div>div:last-child>div {
+    order: 0;
+}
+
+footer>div>div:last-child p {
+    font-size: 1.1rem;
+}
+
+footer>div>div:last-child>div p {
+    font-size: 0.95rem;
+}
+
+#send-and-receive-money-section,
+#exchange-currency-section,
+#virtual-cards-section,
+#stock-trading-section,
+#crypto-section {
+    height: 600px !important;
+}
+
+#terms-header-container {
+    margin: 3rem 0 4rem 0;
+}
+
+#terms-header-container h3,
+#terms-header-container h4 {
+    font-size: 2.75rem;
+    line-height: 2.5rem;
+}
+
+#terms-header-container h5 {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+#terms-content-container>ol>li {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-top: 2rem;
+}
+
+#terms-content-container p,
+#terms-content-container ul {
+    line-height: 2.25rem;
+    font-size: 1.15rem;
+}

@@ -1,0 +1,554 @@
+header nav {
+    height: 7rem;
+}
+
+header .navbar-brand img {
+    min-height: 2rem;
+    margin-left: 0rem;
+}
+
+.navbar-nav li a {
+    font-size: 1.4rem;
+    padding: 0.15rem 1.25rem !important;
+    color: #555555 !important;
+}
+
+body:not(.white) .navbar-nav li a {
+    color: #AEAEAE !important;
+    /* color: #D5E6FB !important; */
+    
+}
+
+
+.navbar-nav li:last-child a {
+    padding-right: 0rem !important;
+}
+
+.navbar-nav li a:hover {
+    color: #1C223C !important;
+}
+
+body:not(.white) .navbar-nav li a:hover {
+    color: blue !important;
+}
+
+#collapsing-nav {
+    position: relative;
+}
+
+#website-switch {
+    min-width: 10rem;
+    font-size: 1.15rem;
+}
+
+#website-switch>span:last-child {
+    width: 3.25rem;
+    height: 2rem;
+    border-radius: 12rem;
+    margin-left: 1rem;
+    margin-right: 0rem;
+}
+
+#website-switch>span:last-child::before {
+    content: '';
+    left: 0.25rem;
+    top: 0.25rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 12rem;
+}
+
+#hero-content-container h3 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin: 2rem 3rem 1rem 3rem;
+}
+
+#hero-content-container ul {
+    display: table;
+    height: 4rem;
+    margin: 0.5rem auto 0 auto;
+}
+
+#hero-content-container ul li {
+    font-size: 2.75rem;
+}
+
+#hero-content-container p {
+    font-size: 1.75rem;
+}
+
+#hero-content-container>div {
+    margin-bottom: 1rem;
+}
+
+#hero-content-container>div>a,
+#download-section>div>div>div:first-child>div a {
+    padding: 0.75rem 2rem;
+    margin: 1rem 2rem 1rem 0;
+    border-radius: 0.75rem;
+    line-height: 1.5rem;
+    font-size: 0.95rem;
+}
+
+#hero-content-container>div>a>img,
+#download-section>div>div>div:first-child>div a img {
+    height: 2.25rem;
+    margin-right: 1rem;
+}
+
+#hero-content-container>div>a>span>b,
+#download-section>div>div>div:first-child>div a>span>b {
+    font-size: 1.15rem;
+    display: block;
+    min-width: 6rem;
+}
+
+#hero-image-container img {
+    width: 20rem;
+    margin-bottom: -1rem;
+}
+
+#as-seen-on-section {
+    padding: 5rem 0;
+    min-height: 10rem;
+}
+
+#as-seen-on-container>a {
+    min-height: 8rem;
+}
+
+#as-seen-on-container>a>p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+#as-seen-on-container>a>img {
+    margin: 1.75rem auto 0 auto;
+    height: 3rem;
+}
+
+#map-section>div>#map-text {
+    font-size: 5rem;
+    line-height: 6rem;
+}
+
+#map-section>div>#map-text>span:first-child {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+#map-section>div>#map-text>span:last-child {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+#map-section>div>img:nth-child(7),
+#map-section>div>img:nth-child(8),
+#map-section>div>img:nth-child(9),
+#map-section>div>img:nth-child(10),
+#map-section>div>img:nth-child(11) {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#manage-your-money-section>div:first-child {
+    font-size: 2.5rem;
+    margin-top: 0;
+    padding: 0 5vw 7rem 5vw;
+    line-height: 3.5rem;
+}
+
+#manage-your-money-section>div:last-child>div {
+    margin-top: -4rem;
+    line-height: 2.25rem;
+    font-size: 1.4rem;
+}
+
+#manage-your-money-section>div:last-child>div img {
+    margin: 2rem 0 1.5rem 0;
+    max-width: 4rem;
+}
+
+#manage-your-money-section>div:last-child>div h3 {
+    margin: 0 0 1.1rem 0;
+    font-size: 1.85rem;
+}
+
+#financial-super-app-section>div:first-child h3 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+
+#financial-super-app-section>div:first-child p {
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    max-width: 80vw;
+}
+
+#send-and-receive-money-section>div>div:last-child>div,
+#exchange-currency-section>div>div:first-child>div {
+    padding: 0 5vw;
+}
+
+#send-and-receive-money-section h3,
+#exchange-currency-section h3,
+#virtual-cards-section h3,
+#stock-trading-section h3,
+#crypto-section h3,
+#business-section h3,
+#download-section h3 {
+    margin: 0;
+    font-size: 2.25rem;
+    line-height: 3.25rem;
+}
+
+#send-and-receive-money-section h3,
+#business-section h3 {
+    width: auto;
+}
+
+#send-and-receive-money-section p,
+#exchange-currency-section p,
+#virtual-cards-section p,
+#stock-trading-section p,
+#crypto-section p,
+#security-section>div>div:last-child>div:first-child>div p,
+#our-users-section .text-container,
+#business-section p {
+    color: #48484D;
+    font-size: 1.65rem;
+    margin: 1.5rem 1vw 3rem 1vw;
+    line-height: 2.5rem;
+}
+
+#exchange-currency-section>div>div:first-child>div {
+    margin: 0
+}
+
+#exchange-currency-section h3 {
+    margin: 0 4vw;
+}
+
+#exchange-currency-section>div>div:last-child>div>div:not(:nth-child(2)) {
+    padding: 1.25rem 1.75rem;
+    margin: 1rem 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 0.5rem;
+    width: 50%;
+}
+
+#exchange-currency-section>div>div:last-child>div>div:first-child {
+    width: 70%;
+    padding: 1.5rem 2rem;
+}
+
+#exchange-currency-section>div>div:last-child>div>div:not(:nth-child(2)) img {
+    border-radius: 7.5rem;
+    height: 3.75rem;
+    width: 3.75rem;
+    margin-right: 1rem;
+}
+
+#exchange-currency-section>div>div:last-child>div>div:first-child img {
+    width: 4.25rem;
+    height: 4.25rem;
+    border-radius: 8.5rem;
+    margin-right: 1.5rem;
+}
+
+#exchange-currency-section>div>div:last-child>div>div>div {
+    font-size: 1.15rem;
+}
+
+#exchange-currency-section>div>div:last-child>div>div:first-child>div {
+    font-size: 1.5rem;
+}
+
+#exchange-currency-section>div>div:last-child>div>div:nth-child(2) {
+    margin: 1rem 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 6rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+#exchange-currency-section>div>div:last-child>div>div:nth-child(2) img {
+    width: 0.75rem;
+    margin: 0.025rem;
+}
+
+#virtual-cards-section p {
+    margin: 1.5rem 0 3rem 0;
+}
+
+#virtual-cards-section>div>div:first-child>div {
+    margin: -3rem 0vw -1rem 0vw;
+    height: 60vw;
+    overflow: visible;
+}
+
+#virtual-cards-section>div>div:first-child>div>img {
+    width: 90vw;
+    margin-left: 3vw;
+    margin-right: 0rem;
+    margin-top: -2rem;
+    max-width: auto;
+}
+
+#stock-trading-section p,
+#business-section p {
+    margin: 1.5rem 1vw 0rem 1vw;
+}
+
+#stock-trading-section a,
+#business-section a {
+    margin: 2rem 0;
+    width: 80%;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    border-radius: 0.5rem !important;
+}
+
+#business-section a {
+    margin: 3rem 0 -3rem 0;
+}
+
+#stock-trading-section>div>div:last-child>div img {
+    width: 55vw;
+    min-width: 55vw;
+    margin-top: 2rem;
+}
+
+#business-section>div>div:last-child>div img {
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    width: 120vw;
+}
+
+#crypto-section>div>div:first-child>div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 5%;
+}
+
+#crypto-section>div>div:first-child>div>div {
+    padding: 1rem;
+    margin: 1.25rem 0;
+    border-radius: 0.75rem;
+    width: 70%;
+}
+
+#crypto-section>div>div:first-child>div>div img {
+    width: 4rem;
+    height: 4rem;
+}
+
+#crypto-section>div>div:first-child>div>div>div:first-child>div:first-child img {
+    width: 3rem;
+    height: 3rem;
+}
+
+#crypto-section>div>div:first-child>div>div h5 {
+    font-size: 1.15rem;
+    margin: 0.1rem 0 0.1rem 0;
+}
+
+#crypto-section>div>div:first-child>div>div h4 {
+    font-size: 1.15rem;
+    margin: 0.1rem 0 0.2rem 0;
+}
+
+#crypto-section>div>div:first-child>div>div span {
+    color: #666666;
+    font-size: 1.05rem;
+}
+
+#crypto-section>div>div:first-child>div>div:first-child h4 {
+    font-size: 1.6rem;
+}
+
+#crypto-section>div>div:first-child>div>div:first-child>div:first-child>div:first-child h5 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: -0.25rem;
+}
+
+#crypto-section>div>div:first-child>div>div:first-child>div:first-child>div:first-child span {
+    font-size: 1rem;
+}
+
+#security-section>div>div:first-child h3,
+#our-users-section>div>div:first-child h3 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+#security-section>div>div:last-child>div:first-child {
+    min-height: 18rem;
+}
+
+#security-section>div>div:last-child>div:first-child>div {
+    min-height: 18rem;
+}
+
+#security-section>div>div:last-child>div:first-child>div img {
+    height: 5rem;
+    margin-bottom: 2rem;
+}
+
+#security-section>div>div:last-child>div:first-child>div h4,
+#our-users-section .text-container h4 {
+    margin: 0 0 1.1rem 0;
+    font-size: 1.85rem;
+}
+
+#security-section>div>div:last-child>div:first-child>div p {
+    margin: 1.5rem 10vw 3rem 10vw;
+}
+
+#our-users-section .text-container h5 {
+    font-size: 1.5rem;
+    color: #666666;
+}
+
+#our-users-section .text-container {
+    margin: 1.5rem 5vw 1rem 5vw;
+}
+
+#our-users-section {
+    padding: 5rem 0 4rem 0;
+}
+
+#business-section>div>div:last-child>div {
+    margin: -5vw -10vw;
+}
+
+#download-section>div>div>div:first-child>div h3 {
+    margin-left: -2.5%;
+    margin-right: -2.5%;
+    line-height: 3.25rem;
+}
+
+#download-section>div>div>div:first-child>div>div {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(3),
+#download-section>div>div>div:last-child>div img:nth-child(4),
+#download-section>div>div>div:last-child>div img:nth-child(5),
+#download-section>div>div>div:last-child>div img:nth-child(6) {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(2) {
+    width: 52vw;
+    margin-top: 4rem;
+}
+
+#our-users-section {
+    height: 59rem;
+}
+
+footer h3 {
+    font-size: 1.85rem;
+}
+
+footer>div>div:first-child>div:first-child img {
+    width: 28vw;
+    margin-bottom: 6rem;
+}
+
+footer ul li a {
+    padding: 0.75rem 0;
+    font-size: 1.3rem;
+}
+
+footer ul li a img {
+    float: right;
+    height: 2.15rem;
+}
+
+footer>div>div:first-child>div:last-child>div>div>div:nth-child(2) {
+    padding-left: 2%;
+}
+
+footer>div>div:first-child>div:last-child>div>div>div:nth-child(4) {
+    order: 4;
+    padding-left: 4%;
+}
+
+footer>div>div:last-child p {
+    margin-bottom: 0.5rem;
+    font-size: 1.15rem;
+}
+
+footer>div>div:last-child>p {
+    order: 0;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+}
+
+#send-and-receive-money-section>div>div:first-child>div img {
+    width: 75vw;
+}
+
+#send-and-receive-money-section>div>div:last-child>div,
+#exchange-currency-section>div>div:first-child>div,
+#virtual-cards-section>div>div:last-child>div,
+#stock-trading-section>div>div:first-child>div,
+#crypto-section>div>div:last-child>div,
+#business-section>div>div:first-child>div,
+#download-section>div>div>div:first-child>div {
+    padding: 0 15%;
+}
+
+#send-and-receive-money-section,
+#exchange-currency-section,
+#virtual-cards-section,
+#stock-trading-section,
+#crypto-section {
+    height: 1100px !important;
+}
+
+#terms-header-container h3,
+#terms-header-container h4 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+
+#terms-header-container {
+    margin: 3rem 0 4rem 0;
+}
+
+#terms-header-container h5 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-top: 1rem;
+}
+
+#terms-content-container>ol>li {
+    font-size: 1.75rem;
+    line-height: 3rem;
+    margin-top: 2.5rem;
+}
+
+#terms-content-container p,
+#terms-content-container ul {
+    line-height: 2.5rem;
+    font-size: 1.3rem;
+}
+
+#terms-content-container ul {
+    list-style-type: disc;
+    margin: 0 0 0 0.5rem;
+}
+
+#terms-content-container ul li {
+    margin-top: 0.75rem;
+}

@@ -1,0 +1,171 @@
+#hero-content-container h3 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+}
+
+#hero-content-container ul {
+    margin-top: 1rem;
+}
+
+#hero-content-container ul li {
+    font-size: 3.25rem;
+}
+
+#hero-content-container p {
+    font-size: 1.75rem;
+}
+
+#hero-image-container img {
+    height: 65vh;
+    margin-bottom: 3rem;
+}
+
+#as-seen-on-section {
+    padding: 3rem 0 3rem 0;
+}
+
+#as-seen-on-container>a {
+    margin: 0rem 1rem;
+}
+
+#as-seen-on-container>a>p {
+    font-size: 1.15rem;
+    line-height: 1.95rem;
+}
+
+#map-section>div>img:nth-child(7) #map-section>div>img:nth-child(8),
+#map-section>div>img:nth-child(9),
+#map-section>div>img:nth-child(10),
+#map-section>div>img:nth-child(11) {
+    height: auto;
+    width: auto;
+}
+
+#map-section>div>#map-text {
+    top: calc(44vw - 94%);
+}
+
+#map-section>div>#map-text>span:first-child {
+    font-size: 1.75rem;
+    line-height: 3.5rem;
+}
+
+#map-section>div>#map-text>span:last-child {
+    font-size: 1.75rem;
+    line-height: 3.5rem;
+}
+
+#manage-your-money-section>div:first-child {
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+}
+
+#manage-your-money-section>div:last-child>div {
+    line-height: 2.15rem;
+    font-size: 1.15rem;
+}
+
+#manage-your-money-section>div:last-child>div img {
+    margin: -3rem 0 2rem 0;
+}
+
+#manage-your-money-section>div:last-child>div h3 {
+    margin: 0 0 1.15rem 0;
+    font-size: 1.65rem;
+}
+
+#financial-super-app-section>div:first-child h3,
+#security-section>div>div:first-child h3,
+#our-users-section h3,
+#business-section h3,
+#download-section>div>div>div:first-child>div h3 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+#financial-super-app-section>div:first-child p {
+    line-height: 2.15rem;
+    font-size: 1.15rem;
+    max-width: 35vw;
+}
+
+#send-and-receive-money-section>div>div:last-child>div {
+    padding: 0 30% 0 0;
+    margin-left: 15%;
+}
+
+#send-and-receive-money-section h3,
+#exchange-currency-section h3 {
+    font-size: 2.75rem;
+    line-height: 3.25rem;
+}
+
+#send-and-receive-money-section p,
+#exchange-currency-section p {
+    line-height: 2.15rem;
+    font-size: 1.15rem;
+}
+
+#exchange-currency-section>div>div:first-child>div {
+    margin: 0 0 0 auto;
+    width: 40rem;
+}
+
+#exchange-currency-section>div>div:last-child>div {
+    margin-right: 0%;
+    margin-left: 7%;
+}
+
+#stock-trading-section>div>div:first-child>div {
+    padding-left: 25%;
+    margin-right: -10%;
+}
+
+#crypto-section>div>div:first-child>div {
+    padding-left: 25%;
+    margin-right: -5%;
+}
+
+#crypto-section>div>div:last-child>div {
+    padding-right: 30%;
+    padding-left: 10%;
+}
+
+#security-section>div>div:last-child>div:first-child {
+    margin: 0 3vw;
+}
+
+#download-section>div>div>div:last-child>div>img:first-child {
+    width: 35rem;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(3) {
+    top: 7rem;
+    left: -6rem;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(4) {
+    top: 2rem;
+    right: 3rem;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(5) {
+    bottom: 12rem;
+    left: -9rem;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(6) {
+    bottom: 16rem;
+    right: 0rem;
+}
+
+footer h3 {
+    margin-top: 0.5rem;
+}
+
+footer>div>div:first-child>div:last-child>div>div>div:nth-child(2) h3,
+footer>div>div:first-child>div:last-child>div>div>div:nth-child(2) ul {
+    margin-left: -8%;
+    margin-right: -7%;
+}

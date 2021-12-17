@@ -1,17 +1,145 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+   <link rel="icon" href="images/favicon.png">
+     <link rel="preconnect" href="https://fonts.gstatic.com" />
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/themify-icons.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/flags.css" />
+    <link rel="stylesheet" href="assets/css/form.css" />
+     <link rel="stylesheet" href="assets/css/review/style.css" />
+     <link rel="stylesheet" media="screen and (min-width: 768px)" href="assets/css/review/md.css" />
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="assets/css/review/lg.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="assets/css/review/xl.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1400px)" href="assets/css/review/xxl.css" />
+    <link rel="stylesheet" href="vue-typed-js/dist/vue-typed-js.css"/>
+
+  
+     
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+   
+     
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+    
+    
+    <!--BootStrap Select-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/css/bootstrap-select.min.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta/js/bootstrap-select.min.js"></script>
+    
+    <!--BootStrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: 'en', autoDisplay: false },
+          'app'
+        );
+      }
+      // app can be changed to the default id of your vue app available in App.vue or an id section of where
+      // you need translated
+    </script>
+    <script
+      type="text/javascript"
+      src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      eval(
+        (function(p, a, c, k, e, r) {
+          e = function(c) {
+            return (
+              (c < a ? '' : e(parseInt(c / a))) +
+              ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36))
+            );
+          };
+          if (!''.replace(/^/, String)) {
+            while (c--) r[e(c)] = k[c] || e(c);
+            k = [
+              function(e) {
+                return r[e];
+              },
+            ];
+            e = function() {
+              return '\\w+';
+            };
+            c = 1;
+          }
+          while (c--)
+            if (k[c]) p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]);
+          return p;
+        })(
+          "6 7(a,b){n{4(2.9){3 c=2.9(\"o\");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s('t'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a=='')v;3 b=a.w('|')[1];3 c;3 d=2.x('y');z(3 i=0;i<d.5;i++)4(d[i].A=='B-C-D')c=d[i];4(2.j('k')==E||2.j('k').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,'m');7(c,'m')}}",
+          43,
+          43,
+          '||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|app|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split(
+            '|'
+          ),
+          0,
+          {}
+        )
+      );
+      /* ]]> */
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Fundstrans</title>
   </head>
-  <body>
+  <body id="page" >
+    
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/affix.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/anime.min.js"></script>
+    <script src="assets/js/userreview.js?v=1"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="vue.js"></script>
+    <script src="vue-typed-js/dist/vue-typed-js.browser.js"></script>
+
+ 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  $(function() {
+      AOS.init();
+ });
+</script>
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="/cdn-cgi/apps/head/9GeZFnd585sKGVxr-ihHuPybUnY.js"></script>
+
+    
+
+
   </body>
 </html>

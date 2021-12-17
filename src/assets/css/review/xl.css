@@ -1,0 +1,401 @@
+header .navbar-brand img {
+    min-height: 2rem;
+}
+
+#website-switch {
+    min-width: 15rem;
+}
+
+#hero-section {
+    padding-top: 7rem;
+    height: 85vh;
+    max-height: 65rem;
+}
+
+#hero-content-container h3 {
+    font-size: 3.25rem;
+    line-height: 3.5rem;
+}
+
+#hero-content-container ul {
+    height: 3rem;
+    margin-top: 0.75rem;
+}
+
+#hero-content-container ul li {
+    font-size: 3rem;
+}
+
+#hero-content-container p {
+    font-size: 1.5rem;
+}
+
+#hero-content-container>div>a,
+#download-section>div>div>div:first-child>div a {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+#hero-content-container>div>a>img,
+#download-section>div>div>div:first-child>div a img {
+    height: 2.5rem;
+    margin-right: 0.75rem;
+}
+
+#hero-content-container>div>a>span>b,
+#download-section>div>div>div:first-child>div a>span>b {
+    font-size: 1.15rem;
+}
+
+#hero-image-container img {
+    height: 58vh;
+    margin-bottom: 2rem;
+    max-height: 50rem;
+}
+
+
+/*body:not(.white):not(.scrolled) .intercom-lightweight-app-launcher,
+body:not(.white):not(.scrolled) .intercom-launcher-frame {
+    bottom: 12vh !important;
+    right: 3vw !important;
+}*/
+
+#as-seen-on-section {
+    padding: 3rem 0 2rem 0;
+}
+
+#as-seen-on-container>a {
+    margin: 0rem 1rem;
+    line-height: 1.75rem;
+}
+
+#as-seen-on-container>a>p {
+    font-size: 1.05rem;
+    line-height: 1.85rem;
+}
+
+#as-seen-on-container>a>img {
+    height: 3rem;
+    margin-top: 1.5rem;
+}
+
+#map-section>div>img:nth-child(7) {
+    top: calc(44vw - 102.5%);
+}
+
+#map-section>div>img:nth-child(9) {
+    top: calc(44vw - 112%);
+}
+
+#map-section>div>#map-text {
+    font-size: 5rem;
+    line-height: 6rem;
+    top: calc(44vw - 97%);
+}
+
+#map-section>div>#map-text>span:first-child {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+#map-section>div>#map-text>span:last-child {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+#manage-your-money-section>div:first-child {
+    font-size: 2.75rem;
+    line-height: 4rem;
+}
+
+#manage-your-money-section>div:last-child>div img {
+    margin: 1rem 0 2rem 0;
+    max-width: 4rem;
+}
+
+#financial-super-app-section>div:first-child h3,
+#our-users-section>div>div:first-child h3,
+#security-section>div>div:first-child h3,
+#business-section h3,
+#download-section>div>div>div:first-child>div h3 {
+    font-size: 2.75rem;
+    line-height: 4rem;
+}
+
+#financial-super-app-section>div:first-child p {
+    max-width: 50%;
+}
+
+#send-and-receive-money-section>div>div:first-child>div {
+    justify-content: flex-end;
+}
+
+#send-and-receive-money-section>div>div:first-child>div img {
+    margin-right: -65%;
+    max-width: 50%;
+}
+
+#send-and-receive-money-section>div>div:last-child>div {
+    padding: 0 25% 0 0;
+    margin-left: 20%;
+}
+
+#send-and-receive-money-section h3,
+#exchange-currency-section h3,
+#virtual-cards-section h3,
+#stock-trading-section h3,
+#crypto-section h3 {
+    margin: 6rem 0 0 0;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+#exchange-currency-section h3,
+#crypto-section h3 {
+    margin-top: 0;
+}
+
+#send-and-receive-money-section p,
+#exchange-currency-section p,
+#virtual-cards-section p,
+#stock-trading-section p,
+#crypto-section p,
+#business-section p {
+    line-height: 2rem;
+    font-size: 1.15rem;
+    margin: 1rem 0 0 0;
+}
+
+#exchange-currency-section>div>div:first-child>div {
+    margin: 0 -1rem 0 7rem;
+}
+
+#exchange-currency-section>div>div:last-child>div {
+    margin-right: 6rem;
+    margin-left: 2rem;
+}
+
+#stock-trading-section>div>div:last-child>div img {
+    min-width: 0%;
+}
+
+#stock-trading-section>div>div:first-child>div,
+#crypto-section>div>div:first-child>div {
+    padding-left: 20%;
+    margin-right: -5%;
+}
+
+#stock-trading-section>div>div:last-child>div img {
+    min-width: 25rem;
+    width: 25rem;
+    margin-top: 1rem;
+}
+
+#crypto-section>div>div:last-child>div {
+    padding-right: 20%;
+    padding-left: 10%;
+}
+
+#security-section>div>div:last-child>div:first-child {
+    margin: 0 2vw;
+}
+
+#security-section>div>div:last-child>div:first-child>div h4,
+#our-users-section .text-container h4 {
+    font-size: 1.5rem;
+}
+
+#security-section>div>div:last-child>div:first-child>div p {
+    font-size: 1.15rem;
+}
+
+#our-users-section .images-container {
+    width: 45rem;
+    height: 20rem;
+    margin-top: 1rem;
+    position: relative;
+}
+
+#our-users-section .images-container img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10rem;
+}
+
+#our-users-section .images-container[data-step="1"] img:first-child,
+#our-users-section .images-container[data-step="2"] img:nth-child(5),
+#our-users-section .images-container[data-step="3"] img:nth-child(4),
+#our-users-section .images-container[data-step="4"] img:nth-child(3),
+#our-users-section .images-container[data-step="5"] img:nth-child(2) {
+    top: calc(50% - 4.25rem);
+    left: calc(50% - 4.25rem);
+    width: 8.5rem;
+    height: 8.5rem;
+}
+
+#our-users-section .images-container[data-step="1"] img:nth-child(2),
+#our-users-section .images-container[data-step="1"] img:nth-child(5),
+#our-users-section .images-container[data-step="2"] img:nth-child(1),
+#our-users-section .images-container[data-step="2"] img:nth-child(4),
+#our-users-section .images-container[data-step="3"] img:nth-child(5),
+#our-users-section .images-container[data-step="3"] img:nth-child(3),
+#our-users-section .images-container[data-step="4"] img:nth-child(4),
+#our-users-section .images-container[data-step="4"] img:nth-child(2),
+#our-users-section .images-container[data-step="5"] img:nth-child(3),
+#our-users-section .images-container[data-step="5"] img:nth-child(1) {
+    top: calc(100% - 5rem);
+    left: 0;
+}
+
+#our-users-section .images-container[data-step="1"] img:nth-child(5),
+#our-users-section .images-container[data-step="2"] img:nth-child(4),
+#our-users-section .images-container[data-step="3"] img:nth-child(3),
+#our-users-section .images-container[data-step="4"] img:nth-child(2),
+#our-users-section .images-container[data-step="5"] img:nth-child(1) {
+    right: 0;
+    left: auto;
+}
+
+#our-users-section .images-container[data-step="1"] img:nth-child(3),
+#our-users-section .images-container[data-step="1"] img:nth-child(4),
+#our-users-section .images-container[data-step="2"] img:nth-child(2),
+#our-users-section .images-container[data-step="2"] img:nth-child(3),
+#our-users-section .images-container[data-step="3"] img:nth-child(1),
+#our-users-section .images-container[data-step="3"] img:nth-child(2),
+#our-users-section .images-container[data-step="4"] img:nth-child(5),
+#our-users-section .images-container[data-step="4"] img:nth-child(1),
+#our-users-section .images-container[data-step="5"] img:nth-child(4),
+#our-users-section .images-container[data-step="5"] img:nth-child(5) {
+    top: 0;
+    left: calc(25% - 2.5rem);
+}
+
+#our-users-section .images-container[data-step="1"] img:nth-child(4),
+#our-users-section .images-container[data-step="2"] img:nth-child(3),
+#our-users-section .images-container[data-step="3"] img:nth-child(2),
+#our-users-section .images-container[data-step="4"] img:nth-child(1),
+#our-users-section .images-container[data-step="5"] img:nth-child(5) {
+    right: calc(25% - 2.5rem);
+    left: auto;
+}
+
+#our-users-section .text-container {
+    font-size: 1.15rem;
+    line-height: 2rem;
+    margin-top: -4rem;
+}
+
+#business-section p {
+    max-width: 32.5rem;
+}
+
+#business-section>div>div:last-child>div img {
+    width: 70rem;
+}
+
+#download-section {
+    margin-top: 3rem;
+}
+
+#download-section>div>div>div:last-child>div>img:first-child {
+    display: block;
+    width: 27rem;
+    margin-right: 2rem;
+    margin-top: 0;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(3),
+#download-section>div>div>div:last-child>div img:nth-child(4),
+#download-section>div>div>div:last-child>div img:nth-child(5),
+#download-section>div>div>div:last-child>div img:nth-child(6) {
+    width: 1rem;
+    height: 1rem;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(3) {
+    top: 5rem;
+    left: -3rem;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(4) {
+    top: 3rem;
+    right: 4rem;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(5) {
+    bottom: 10rem;
+    left: -7rem;
+}
+
+#download-section>div>div>div:last-child>div img:nth-child(6) {
+    bottom: 14rem;
+    right: 2rem;
+}
+
+#stock-trading-section a,
+#business-section a {
+    font-size: 1.1rem;
+    padding: 0.85rem 1rem;
+}
+
+#our-users-section {
+    height: 47rem;
+}
+
+/*footer>div>div:first-child>div:first-child img {
+    width: 11rem;
+}
+
+footer>div>div:first-child>div:last-child>div {
+    margin-left: 0;
+}*/
+
+footer h3 {
+    font-size: 1.35rem;
+    margin-top: 0.25rem;
+}
+
+footer ul li a {
+    padding: 0.65rem 0;
+    font-size: 1.15rem;
+}
+
+/*footer ul li a img {
+    float: right;
+    height: 1.5rem;
+    margin-top: 0.15rem;
+}*/
+
+/*footer>div>div:first-child>div:last-child>div>div>div:nth-child(2) h3,
+footer>div>div:first-child>div:last-child>div>div>div:nth-child(2) ul {
+    margin-left: -10%;
+    margin-right: -5%;
+}*/
+
+/*footer>div>div:first-child>div:last-child>div>div>div:nth-child(3) {
+    padding-left: 5%;
+}
+
+footer>div>div:first-child>div:last-child>div>div>div:nth-child(4) {
+    padding-left: 7%;
+}*/
+
+#send-and-receive-money-section>div>div:first-child>div img {
+    min-width: 40rem;
+    width: 40rem;
+}
+
+#virtual-cards-section>div>div:first-child>div>img {
+    min-width: 35rem;
+    width: 35rem;
+    margin: 1rem -9% 0 0;
+}
+
+#send-and-receive-money-section,
+#exchange-currency-section,
+#virtual-cards-section,
+#stock-trading-section,
+#crypto-section {
+    height: 700px !important;
+}
